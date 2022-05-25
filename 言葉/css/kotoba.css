@@ -1,0 +1,118 @@
+body, html {
+	background-color: #151515;
+	font-family: "Helvetica Neue";
+	font-size: 1em;
+}
+
+input, td, p, select, option {
+	font-family: "Helvetica Neue" !important;
+}
+
+input, textarea {
+	background-color: black;
+	color: white;
+	border: none;
+	padding: 0.1em;
+	margin: 0.1em;
+}
+
+table {
+	table-layout: fixed;
+	border-collapse: collapse;
+}
+
+table, th, td {
+	border-spacing: 0;
+	border: none;
+}
+
+th, td {
+	vertical-align: middle;
+	text-align: left;
+	border-spacing: 0;
+	margin: 0.1em;
+	padding: 0.1em 0.3em;
+}
+
+td.input {
+	margin: 0;
+	padding: 0;
+}
+
+td.topp {vertical-align: top;}
+td.botten {vertical-align: bottom;}
+
+hr {
+	height: 0.1em;
+	background-color: #822;
+	border: none;
+	margin-left: 0;
+}
+
+hr.kort {width: 20%;}
+
+code {font-family: "Courier New";}
+
+#hem {
+	position: absolute;
+	right: 0.1em;
+	top: 0.1em;
+	z-index: 10;
+	padding: 0.1em;
+	margin: 0.3em;
+}
+
+#testyta {
+	position: relative;
+	top: 0vh;
+	left: 0vw;
+	width: 80vw;
+	min-width: 30em;
+	height: auto;
+	padding: 1em;
+}
+
+.radera_glosa, .tala_glosa {cursor: pointer;}
+.glostest_romanisering, .glostest_glosa {cursor: pointer;}
+
+.kotoba {
+	position: absolute;
+	top: 0;
+	left: 0;
+	padding: 0;
+}
+
+.ram {border: thin solid #ccc;}
+.mindre {font-size: 0.8em;}
+.större {font-size: 1.2em;}
+
+.center {text-align: center;}
+.höger {text-align: right;}
+.vänster {text-align: left;}
+
+.synlig {color: inherit;}
+.transparent {color: transparent !important;}
+
+.glostest_översättning, .glostest_romanisering, .glostest_glosa {
+	font-size: 2em;
+	color: #fdff7d;
+	border-left: thin solid red;
+	width: 30%;
+}
+
+.testhuvud {
+	font-size: 1.5em;
+	color: #afaaaa;
+	border-bottom: thin solid #afaaaa;
+}
+
+.ui-selectmenu-menu .ui-menu {max-height: 70vh;}
+.ui-button {
+	padding: 0.2em 0.5em !important;
+	font-size: 0.9em !important;
+}
+.ui-tabs-anchor {
+	margin-left: 0.2em !important;
+	margin-right: 0.2em !important;
+	padding: 0.3em !important;
+}

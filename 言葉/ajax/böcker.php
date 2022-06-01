@@ -17,6 +17,7 @@ if (isset($_REQUEST['ny_bok_boknamn'])) {
 			$kotoba->bokid = (int) $ny_bok_bokid;
 			$kotoba->boknamn = $ny_bok_boknamn;
 			$kotoba->db->spara_preferens('boknamn', (string) $kotoba->boknamn);
+			$kotoba->db->spara_preferens('bokid', (string) $kotoba->bokid);
 		}
 	}
 } elseif (isset($_REQUEST['redigera_böcker_boknamn'])) {

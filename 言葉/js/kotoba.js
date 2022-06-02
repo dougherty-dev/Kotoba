@@ -249,4 +249,9 @@
 		});
 	});
 
+	$("#ny_glosa_översättning").keydown(function(e) {
+		if (e.keyCode === 13) {
+			$("#ny_glosa").trigger("click");
+		}
+	});
 })(); // 言葉
